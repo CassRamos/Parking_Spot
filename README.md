@@ -1,42 +1,82 @@
-<h1 align="center"> Parking Spot </h1>
+<h1 align="center"> Parking Spot  </h1>
 
 <p align="center">
-Serviço de estacionamento baseado na utilização de requisições via postman
+A simple application using Java and Spring<br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
+
+<br>
+
+## 🚀 Tecnologies
+
+This project was developed with the following technologies:
+
+- Java & Spring framework 🍃
+- Postgres 🐘
+- Git & Github 
+- Postman
+
+
+## 💻 Project
+
+The Parking Spot is an application responsible for implementing a CRUD along with validations to simulate a registration in a parking space.
+
+
+## :memo: License
+
+This project is under license from MIT
+
+<br>
+
+## Endpoints
+
+
+### GET (all info about the registered spots):
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <img alt="Get all" src="./img_github/spot_1.png" width="80%">
 </p>
 
 <br>
 
+### GET by id (all info about spot):
 <p align="center">
-  <h1> Parking Spot</h1>
+  <img alt="Get by id" src="./img_github/spot_2.png" width="80%">
 </p>
 
-## 🚀 Tecnologias
+<br>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### POST (register a spot):
+<p align="center">
+  <img alt="Post spot" src="./img_github/spot_3.png" width="80%">
+</p>
 
-- JAVA e Spring Boot
-- Postman (é o que mais estou acostumado 😁)
-- Banco de Dados (utilizado Postgres)
-- Git e Github
+<br>
+<br>
 
-## 💻 Projeto
+### DELETE:
 
-O Parking Spot se baseia em requisições (GET, POST, dentre outras) para a alocação de veículos (digitados em formato JSON), além disso há uma série de validações a fim de deixar o projeto semelhante ao de um estacionamento real
 
-## :memo: Licença
+### Deleting ❌ (with id)
+<p align="center">
+  <img alt="Get all" src="./img_github/spot_delete.png" width="80%">
+</p>
 
-Esse projeto está sob a licença MIT.
+<br>
 
----
+### Querying after delete
+<p align="center">
+  <img alt="After delete" src="./img_github/spot_afterdelete.png" width="80%">
+</p>
+
+
+
+
+
+
 
