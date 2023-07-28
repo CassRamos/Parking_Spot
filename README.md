@@ -34,24 +34,28 @@ This project is under license from MIT
 
 <br>
 
-## Endpoints
+## Endpoints 📡
 
+<br>
 
-### GET (all info about the registered spots):
+### GET 
+  - All info about the registered spots:
 <p align="center">
   <img alt="Get all" src="./img_github/spot_1.png" width="80%">
 </p>
 
 <br>
 
-### GET by id (all info about spot):
+###  GET 
+ - By id (all info about a single spot):
 <p align="center">
   <img alt="Get by id" src="./img_github/spot_2.png" width="80%">
 </p>
 
 <br>
 
-### POST (register a spot):
+### POST 
+  - Register a spot:
 <p align="center">
   <img alt="Post spot" src="./img_github/spot_3.png" width="80%">
 </p>
@@ -59,17 +63,30 @@ This project is under license from MIT
 <br>
 <br>
 
-### DELETE:
+### Update ⚙ (PUT):
+  - Updating by id:
+<p align="center">
+  <img alt="Updating" src="./img_github/update_git.png" width="80%">
+</p>
 
+<br>
 
-### Deleting ❌ (with id)
+  - Querying after update:
+<p align="center">
+  <img alt="After upating" src="./img_github/update_git_2.png" width="80%">
+</p>
+
+<br>
+
+### Delete ❌:
+  - Deleting by id:
 <p align="center">
   <img alt="Get all" src="./img_github/spot_delete.png" width="80%">
 </p>
 
 <br>
 
-### Querying after delete
+  - Querying after delete:
 <p align="center">
   <img alt="After delete" src="./img_github/spot_afterdelete.png" width="80%">
 </p>
