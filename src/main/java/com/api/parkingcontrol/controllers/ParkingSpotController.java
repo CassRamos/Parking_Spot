@@ -87,7 +87,11 @@ public class ParkingSpotController {
         parkingSpotModel.setParkingSpotNumber(parkingSpotDto.getParkingSpotNumber());
         parkingSpotModel.setLicensePlateCar(parkingSpotDto.getLicensePlateCar());
         parkingSpotModel.setBrandCar(parkingSpotDto.getBrandCar());
+<<<<<<< HEAD
         parkingSpotModel.setModelCar(parkingSpotDto.getModelCar());
+=======
+        parkingSpotModel.setModelCar(parkingSpotModel.getModelCar());
+>>>>>>> origin/main
         parkingSpotModel.setColorCar(parkingSpotDto.getColorCar());
         parkingSpotModel.setResponsibleName(parkingSpotDto.getResponsibleName());
         parkingSpotModel.setApartment(parkingSpotDto.getApartment());
