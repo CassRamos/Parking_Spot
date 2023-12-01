@@ -18,7 +18,7 @@ A simple application using Java and Spring<br/>
 This project was developed with the following technologies:
 
 - Java & Spring framework 🍃
-- Postgres 🐘
+- PostgreSQL 🐘
 - Git & Github 
 - Postman
 
